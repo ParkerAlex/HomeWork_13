@@ -4,8 +4,8 @@ public class Enter {
 	
 	void enter(Object s) {
         if (s == null) {
-            throw new NullPointerException("ИСКЛЮЧАЕМ, ЕСЛИ ЯЧЕЙКА ПУСТА И ВЫВОДИМ СООБЩЕНИЕ: ");
+            throw new NullPointerException("ISKLUCHAEM, esli yacheyka pusta i vivodim tekst: ");
         }
-        System.out.println("Печатаем, что хранится в ARRAY_LISTe: " + s);
+        System.out.println("Pechataem to chto hranitsia v ARRAY_LISTe: " + s);
 	}
 }

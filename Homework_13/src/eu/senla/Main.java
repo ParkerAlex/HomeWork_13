@@ -12,7 +12,7 @@ public class Main {
 		try {
 			arifmetic(2,0);
 		} catch (ArithmeticException e) {
-			System.err.println("Õ¿ ÕŒÀ‹ ƒ≈À»“‹ Õ≈À‹«ﬂ!!!");
+			System.err.println("ALARM DELIT NA 0!!!");
 			
 			System.out.println("/////////////////////////////////////////////////////");
 		}
@@ -20,7 +20,7 @@ public class Main {
 		
 	
 	Enter enter = new Enter();
-    List list= Arrays.asList("ƒ∆≈ ","¡À› ", null, "MAKS", null, "BARRY");
+    List list= Arrays.asList("JECK","BLACK", null, "MAKS", null, "BARRY");
 
     for (Object s:list) {
         try {
@@ -28,7 +28,7 @@ public class Main {
         }
         catch (NullPointerException e) {
             System.out.println(e.getMessage());
-            System.out.println("ﬂ◊≈… ¿ œ”—“¿...");
+            System.out.println("YACHEIKA PUSTA...");
         }
     }
 
